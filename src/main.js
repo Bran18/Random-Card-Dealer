@@ -33,10 +33,10 @@ window.onload = function() {
 
   console.log(icons[IconIndex]);
 
-  var ph = document.getElementById("iconHeader");
-  var pf = document.getElementById("iconFooter");
-  ph.innerHTML = icons[IconIndex];
-  pf.innerHTML = icons[IconIndex];
+  var iconHeader = document.getElementById("iconHeader");
+  var iconFooter = document.getElementById("iconFooter");
+  iconHeader.innerHTML = icons[IconIndex];
+  iconFooter.innerHTML = icons[IconIndex];
 
   var main = document.getElementById("card");
 
